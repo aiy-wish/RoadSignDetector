@@ -19,15 +19,6 @@ This dataset has more than 50,000 images of 43 classes.**
 - **Model Training and Evaluation.**
 - **Testing the Model Using the Test Set.**
 - **Testing the Model on New Images.**
-
-I'll explain each step in details below.
-
-#### Environement:
--  Windows 10
--  Anaconda 5.0.1
--  Python 3.6.2
--  TensorFlow 0.12.1 (GPU support)
-
 ---
 ## Step 1: Load The Data
 
