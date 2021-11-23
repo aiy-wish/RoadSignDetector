@@ -108,83 +108,12 @@ I'll start by explaining each network architecture, then implement it using Tens
 This ConvNet follows these steps:
 
 Input => Convolution => ReLU => Pooling => Convolution => ReLU => Pooling => FullyConnected => ReLU => FullyConnected
-
-**Layer 1 (Convolutional):** The output shape should be 28x28x6.
 <figure>
  <img src="model.png" width="1072" alt="Combined Image" />
  <figcaption>
  <p></p> 
  </figcaption>
 </figure>
-
-**Activation.** Your choice of activation function.
-
-**Pooling.** The output shape should be 14x14x6.
-
-**Layer 2 (Convolutional):** The output shape should be 10x10x16.
-
-**Activation.** Your choice of activation function.
-
-**Pooling.** The output shape should be 5x5x16.
-
-**Flattening:** Flatten the output shape of the final pooling layer such that it's 1D instead of 3D.
-
-**Layer 3 (Fully Connected):** This should have 120 outputs.
-
-**Activation.** Your choice of activation function.
-
-**Layer 4 (Fully Connected):** This should have 84 outputs.
-
-**Activation.** Your choice of activation function.
-
-**Layer 5 (Fully Connected):** This should have 10 outputs.
-
-
-This ConvNet follows these steps:
-
-Input => Convolution => ReLU => Convolution => ReLU => Pooling => Convolution => ReLU => Convolution => ReLU => Pooling => Convolution => ReLU => Convolution => ReLU => Pooling => FullyConnected => ReLU => FullyConnected => ReLU => FullyConnected
-
-**Layer 1 (Convolutional):** The output shape should be 32x32x32.
-
-**Activation.** Your choice of activation function.
-
-**Layer 2 (Convolutional):** The output shape should be 32x32x32.
-
-**Activation.** Your choice of activation function.
-
-**Layer 3 (Pooling)** The output shape should be 16x16x32.
-
-**Layer 4 (Convolutional):** The output shape should be 16x16x64.
-
-**Activation.** Your choice of activation function.
-
-**Layer 5 (Convolutional):** The output shape should be 16x16x64.
-
-**Activation.** Your choice of activation function.
-
-**Layer 6 (Pooling)** The output shape should be 8x8x64.
-
-**Layer 7 (Convolutional):** The output shape should be 8x8x128.
-
-**Activation.** Your choice of activation function.
-
-**Layer 8 (Convolutional):** The output shape should be 8x8x128.
-
-**Activation.** Your choice of activation function.
-
-**Layer 9 (Pooling)** The output shape should be 4x4x128.
-
-**Flattening:** Flatten the output shape of the final pooling layer such that it's 1D instead of 3D.
-
-**Layer 10 (Fully Connected):** This should have 128 outputs.
-
-**Activation.** Your choice of activation function.
-
-**Layer 11 (Fully Connected):** This should have 128 outputs.
-
-**Activation.** Your choice of activation function.
-
-**Layer 12 (Fully Connected):** This should have 43 outputs.
 
 ---
 
